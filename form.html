@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- post method is use to redirect the page to the server -->
+    <!-- get method is use to rediect it to url  -->
+    <!-- if we give action in form with another folder address when we sign up in this page it will redirect it to that folder page -->
+    <form action="table.html" method="get">
+      <div>
+        
+        <!-- if we give label interchange for another label the selction will be different -->
+        <label for="password">UserName</label>
+        <input type="text" id="Username">
+      </div>
+      <br />
+      <div>
+        <label for="Username">Password</label>
+        <input type="password" id="password" required>
+      </div>
+      <br>
+      <div>
+        <label for="email">Email id</label>
+        <input type="email" id="email" >
+      </div>
+      <br>
+      <div>
+        <label for="number">Mobilenumber</label>
+        <input type="number" id="number">
+      </div>
+      <br>
+      <div>
+        
+        <input type="checkbox" >
+        <label >Java</label>
+        <br>
+        <input type="checkbox" >
+        <label >Python</label>
+
+      </div>
+      <div>
+        <select>
+            <option >Java</option>
+            <option >Python</option>
+            <option>Html</option>
+        </select>
+      </div>
+      <div>
+        
+        <input type="radio" >
+        <label >Morning</label>
+      </div>
+      <div>
+        
+        <input type="radio" >
+        <label >Evening</label>
+      </div>
+      <br>
+      <button type="submit">Signup</button>
+      <button type="submit">reset</button>
+      <br>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </form>
+  </body>
+</html>
